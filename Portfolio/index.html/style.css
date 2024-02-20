@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Philosopher&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%
+    ;
+}
+
+.sidebar{
+
+    font-family: 'Philosopher', sans-serif;
+
+}
+.sidebar nav{
+    background-color:rgb(187, 175, 175);
+    margin: auto;
+    padding: 35px;
+    height: 90vh;
+   
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 38px;
+    padding: 35px;
+    
+    
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color:aliceblue;
+}
+.main{
+    background-color:white;
+    width:90vw;
+    height: 45vw;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    background-color: white;
+    height: 30vw;
+    width: 80vw;
+    margin: 133px auto;
+    display: flex;
+    justify-content: space-around;
+ 
+
+}
+.devpic img{
+    width: 24vw;
+   
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.hello{
+ font-size: 70px;
+ font-family: 'Fira Sans', sans-serif;
+ justify-content: center;
+}
+.name{
+    font-size: 90px;
+    font: bolder;
+    justify-content: center;
+}
+.About{
+    font-size: 65px;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: center;
+}
+.buttons{
+ 
+ padding: 20px; 
+  
+}
+.buttons button{
+
+    
+    font-size: 30px;
+    border: 5cm, black;
+    border-radius: 30px;
+    margin-right: 22px; 
+    padding:10px;
+    background-color: rgb(164 166 211);
+}
+ .buttons :hover{
+
+    
+        background: transparent;
+        color: #33ccff;
+        border-color: #33ccff;
+        transition:all 1.2s;
+}
+.contactform h1{
+ font-size: 50px;
+ padding: 40px;
+ padding-right: 60px;
+ text-align: center;
+}
+.contactform{
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    
+}
+.contactform div {
+font-size: 35px;
+padding: 20px;
+text-align: center;
+
+}
+ #username{
+    
+        padding: 8px;
+        width: 300px;
+        margin: 0px 0px 20px 20px;
+        
+}
+#useremail{
+ padding: 8px;
+ width: 300px;
+ margin: 50px 0px 5px 20px;
+ 
+
+}
+
+
+#userphone{
+ padding: 9px; 
+ width: 296px;
+ margin:0px 0px 50px 50px;
+
+ 
+ 
+} 
+.form-check-input{
+  zoom: 2;
+}
+.btn{
+    width: 111px;
+    height: 40px;
+    background-color: rgb(168 174 193);
+    border-radius: 100px;
+}
+
